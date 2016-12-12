@@ -1,0 +1,32 @@
+2016D12
+
+There are different objects to consider when counting. The main page contains 
+the 5 subjects. The main page is the object 1. The status should be:
+
+	Retrieving objects (0/1)
+
+Once retrieved, the 5 subjects should be added to the number of objects, then 
+the status is:
+
+	Retrieving objects (1/6)
+
+Once the first subject notice page is loaded, we can count how many notices we 
+have. Imagine there are 10 notices, the status is:
+
+	Retrieving objects (2/16)
+
+Now we can choose between explore other subjects, or continue in depth with the 
+actual one. Let's do the latter. Exploring a notice, brings the attachment list.  
+Imagine for the firts notice, we have 3 attachments. The status:
+
+	Retrieving objects (3/19)
+
+And so on. The different objects are:
+
+	The main page with the subject list.
+	The list of notices in a subject.
+	The list of assignments in a subject.
+	The notice page.
+	The assignment page.
+	An attachment from a notice.
+	An attachment from a assignment.
